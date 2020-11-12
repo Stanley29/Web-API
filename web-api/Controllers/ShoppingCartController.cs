@@ -12,7 +12,7 @@ namespace web_api.Controllers
     [ApiController]
     public class ShoppingCartController : ControllerBase
     {
-        private readonly IShoppingCartService _service;
+        private readonly IShoppingCartService _service;//connect to db
         public ShoppingCartController(IShoppingCartService service)
         {
             _service = service;
