@@ -10,7 +10,7 @@ namespace web_api
 {
     public class ShoppingCartService : IShoppingCartService
     {
-        ShoppingContext db;
+        ShoppingContext db;//main context
 
         public ShoppingCartService(ShoppingContext context)
         {
